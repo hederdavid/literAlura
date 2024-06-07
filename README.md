@@ -1,12 +1,20 @@
-# literAlura
+# literAlura 📚
 
 Bem-vindo ao literAlura! Este projeto é uma aplicação que consome a API Gutendex para fornecer informações sobre livros. Desenvolvido com Spring Boot, utiliza JPA e PostgreSQL para persistência de dados.
 
 ## Funcionalidades
 
-- Pesquisa de livros por título, autor ou categoria.
-- Visualização de detalhes de livros, como sinopse, autor, etc.
-- Integração com a API Gutendex para obter dados atualizados.
+- 🔍 **Buscar livro pelo título:** Esta funcionalidade permite pesquisar um livro pelo seu título na API Gutendex e salvar as informações encontradas no banco de dados local.
+
+- 📖 **Listar livros registrados:** Exibe todos os livros salvos no banco de dados, incluindo informações como título, autor, sinopse, etc.
+
+- 👤 **Listar autores registrados:** Apresenta uma lista de todos os autores cujos livros estão registrados no banco de dados.
+
+- 📅 **Listar autores vivos em um determinado ano:** Permite listar os autores que ainda estão vivos em um ano específico.
+
+- 🌍 **Listar livros em um determinado idioma:** Mostra os livros disponíveis em um idioma específico.
+
+- 🚪 **Sair:** Encerra a aplicação.
 
 ## Tecnologias Utilizadas
 
@@ -15,16 +23,3 @@ Bem-vindo ao literAlura! Este projeto é uma aplicação que consome a API Guten
 - PostgreSQL
 - Gutendex API
 - Maven
-
-## Guia de Instalação e Uso
-
-### Pré-requisitos
-
-- JDK 8 ou superior instalado
-- PostgreSQL instalado e em execução
-- Maven 3.x ou superior instalado
-
-### Clonando o Repositório
-
-```bash
-git clone https://github.com/seu-usuario/literAlura.git
